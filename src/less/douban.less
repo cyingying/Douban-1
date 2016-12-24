@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.head{
+	position: absolute;
+	height: 28px;
+  color: #d5d5d5;
+  width: 100%;
+  background-color: #545652;  
+}
+.head ul{
+	list-style:none;
+	/*color: #d5d5d5;*/
+ }
+.head .head1 ul li{
+	float: left;
+	display: inline-block;
+  width: 48px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 12px;
+}
+.head a{
+	 text-decoration: none;
+	 color: #d5d5d5;
+	 display: inline-block;
+   zoom: 1;
+}
+/*.head .head1 ul li a{
+	 text-decoration: none;
+	 color: #d5d5d5;
+	 display: inline-block;
+   zoom: 1;
+   padding: 0 12px;
+   width: 24px;
+   height: 28px;
+}*/
+.head .head1 ul li a:hover{
+	 color:#fff;
+	 cursor: pointer;
+}
+
+.head .head2{
+	position: absolute;
+	right:120px; 
+	width: 100px;
+}
+.head .head2 a{
+  padding: 0 8px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+}
+.head .head2 .code{
+	position: absolute;
+	display: none;
+	left: -65px;
+	width: 260px;
+	height: 500px;
+	border: 1px solid #eee;
+	border-top: none;
+  background: #fff;
+  z-index: 1000;
+}
+.head .head2 .code .p1{
+	text-align: center;
+  padding-top: 170px;
+  color: #111;
+    font-size: 24px;
+  font-weight: 400;
+  background:url('../url/1.png') no-repeat;
+  background-position: center;
+} 
+.head .head2 .code .p2{
+  font-size: 13px;
+  margin-top: 5px;
+  color: #111;
+/*font-weight: bold;*/
+  text-align: center;
+}
+.head .head2 .code .p3{
+	padding-top: 160px;
+  margin-top: 30px;
+  font-size: 0;
+  background:url('../url/code.png') no-repeat; 
+  background-position: center;
+}
+.head .head2 .code div{
+  border-top: none;
+  color: #111;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #37a;
+}
+.head .head2 .code div a{
+	 color: #37a;
+}
+.head .head3{
+  position: absolute;
+  right: 25px;
+  /*width: 100px;*/
+  height: 28px;
+}
+.head .head3 ul{
+  /*width: 100px;*/
+  height: 28px;
+}
+.head .head3 ul li{
+  float: left;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 12px;
+}
+/*.head .head3 ul li a{
+  width: 24px;
+   height: 28px;
+}*/
+.head .head3 ul li a:hover{
+   color:#fff;
+   cursor: pointer;
+}
+.nav{
+  position:absolute;
+  top:28px;
+  font-size:12px;
+  color: #111;
+  width: 100%;
+  height: 74px;
+  margin-bottom: 40px;
+  background: #edf4ed;     
+}
+.nav .navq{
+  height: 74px;
+  padding-top:12px;
+  padding-bottom:5px;
+}
+.nav .navq .nav-search{
+   position:absolute;
+   right: 200px; 
+   width: 280px;
+   height: 30px;
+   padding:10px 0 15px 0;
+}
+/* .nav .navq .nav-search a{
+   position: absolute;
+   left: 11px;
+   top: 10px;
+   width: 278px;
+   height: 28px;
+   border: 1px solid #e1e9e1;
+   color: #bbb;
+}*/     
+.nav .navq .nav-search  input{
+   line-height: 28px;
+   position: absolute;
+   left: 11px;
+   top: 10px;
+   color: #bbb;
+}
+.nav .navq .nav-search div{
+  position: absolute;
+  top:12px;
+  left:157px;
+  width: 30px;
+  height: 28px;
+  background-color: #fff;
+  background:url('../url/2.png') no-repeat 50% 50%;
+}
+/*.nav .navq .nav-search div input{
+  overflow: hidden;
+  background:url('2.png') no-repeat 50% 50%;
+}*/	
+.nav .navq .nav-logo{
+  position: absolute;
+  left: 200px;
+  width: 184px;
+  height: 57px;
+  line-height: 57px;
+  float: left;
+  margin: 0 13px 0 0;
+  background:url('../url/3.png') no-repeat 0 12px; 
+}
+.nav .navq .nav-item{
+  position: absolute;
+  left: 450px;
+}
+.nav a{
+  text-decoration:none;
+}
+.nav .navq .nav-item ul li{
+  float: left;
+  list-style:none;
+  margin-right: 20px;
+  font-size: 15px;
+  line-height: 57px;
+}
+.nav .navq .nav-item ul li a:hover{
+  background:#072;
+  color: #fff;
+}
+.warpper{
+  position: relative;
+  top:120px;
+  width: 950px;
+  margin: 0 auto;
+  color: #111;
+  font-size: 12px;
+  border:1px solid orange;
+}
+.warpper .content{
+  width: 590px;
+  padding-right:40px;
+}
+.warpper .content .search{
+  position: relative;
+  margin-bottom:28px;
+  background-color: #f7f7f8;
+  padding: 7px;
+}
+.warpper .content .search .sah{
+  height: 30px;
+  cursor: text;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+}
+.warpper .content .search .sah input{
+  background: #fff;
+  height: 30px;
+  width:574px;
+  padding-left: 6px;
+  border:0;
+  position: absolute;
+  /*color: #bbb;*/
+}
+.warpper .content .search .btn{
+  position: absolute;
+  top: 9px;
+  right: 7px;
+  width: 30px;
+  height: 28px;
+  overflow: hidden;
+  border:none;
+}
+.warpper .content .search .btn input{
+  width: 30px;
+  height: 30px;
+  background: url('../url/2.png') no-repeat;
+  background-size: 30px 30px;
+  overflow: hidden;
+  padding: 30px 0 0 0;
+  border:none;
+}
+.warpper .content .book{
+  /*height:2000px;*/
+  width:590px;
+  /*background:orange;*/
+}
